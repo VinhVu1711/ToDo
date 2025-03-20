@@ -10,9 +10,7 @@ import {
   StyleSheet,
   Pressable,
 } from "react-native";
-//import DateTimePicker from "@react-native-community/datetimepicker";
-//import { DateTimePicker } from "react-native-material-datetime-picker";
-import DateTimePicker from "react-native-community/datetimepicker";
+import DateTimePicker from "@react-native-community/datetimepicker";
 export default function CustomizeTaskScreen() {
   const [taskItems, setTaskItems] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);

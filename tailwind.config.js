@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./screens/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./App.js", // Thêm các tệp bạn muốn sử dụng Tailwind
+    "./screens/**/*.js",
+    "./components/**/*.js",
+    "./node_modules/nativewind/**/*.js", // Đảm bảo NativeWind được tìm thấy
+  ],
   theme: {
     extend: {},
   },
